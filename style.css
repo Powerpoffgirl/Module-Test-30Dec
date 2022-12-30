@@ -1,73 +1,74 @@
 header{
     background-color:#000000;
     color: white;
-    width: 82.5rem;
-    height: 3rem;
+    width: 98.78w;
+    height: 6vh;
+    padding-top: 1vh;
+    padding-left: 2vw;
 }
 
-.container{
+.home{
     background-color: #CDCDCD;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    padding-left: 1vw;
 }
 
 .searchBar{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 80rem;
-    margin-top: 0.5rem;
+    width: 97vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 #searchInput{
     background-color:#D9D9D9;
-    width: 70rem;
-    height: 3rem;
-    padding-left: 1rem;
-    margin-left:0.5rem;
-    margin-right:1rem;
+    width: 83vw;
+    height: 6vh;
+    padding-left: 1vw;
 }
 
 #searchBtn{
-    width:12rem;
-    height: 3rem;
+    width:12vw;
+    height: 6vh;
     background-color: #000000;
     color: white;
-    margin-right: 0.5rem;
 }
 
 .buttons{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    margin-bottom: 1rem;
+    margin-bottom: 3vh;
 }
 
 .btn{
-    border-radius:0rem;
-    width: 15rem;
-    height: 4rem;
-    padding: 0.25rem;
+    border-radius:0;
+    width: 15vw;
+    height: 6vh;
 }
 
 .table{
     background-color:#D9D9D9;
-    width: 80rem;
-    margin-left: 0.5rem;
+    width: 97vw;
+    margin-left: 0.5vw;
     border: #000000;
 }
 
 img{
-    border-radius: 50rem;
-    margin-right: 1rem;
-    height: 2rem;
-    width: 2rem;
+    border-radius: 50%;
+    margin-right: 1vw;
+    height: 4vh;
+    width: 2vw;
     border: 1px solid black;
 }
 
 
 h4{
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 1vh;
 }
