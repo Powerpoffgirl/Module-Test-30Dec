@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <header class="headerText ms-5 ps-3 mt-5 p-2">Student Portal</header>
+    <div class="container ms-5">
+        <div class="searchBar pt-2 pb-2">
+            <input id="searchInput" placeholder="Search"/>
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="buttons">
+            <button class="btn btn-dark m-2"id="btnAZ">Sort A->Z</button>
+            <button class="btn btn-dark m-2" id="btnZA">Sort Z->A</button>
+            <button class="btn btn-dark m-2" id="btnMarks">Sort By Marks</button>
+            <button class="btn btn-dark m-2" id="btnPassing">Sort By Passing</button>
+            <button class="btn btn-dark m-2" id="btnClass">Sort By Class</button>
+            <button class="btn btn-dark m-2" id="btnGender">Sort By Gender</button>
+        </div>
+        <div id = "title"></div>
+        <table id="table" class="table table-bordered">
+            <thead id="tableHead">
+                <tr>
+                  <th id="id" >ID</th>
+                  <th id="fname">Name</th>
+                  <th id="gender">Gender</th>
+                  <th id="studentClass">Class</th>
+                  <th id="marks">Marks</th>
+                  <th id="passing">Passing</th>
+                  <th id="email">Email</th>
+                </tr>
+              </thead>
+              <tbody id="tableBody">
+                
+              </tbody>
+          </table>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
